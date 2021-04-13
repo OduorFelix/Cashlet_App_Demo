@@ -8,6 +8,13 @@ To Run the Application on Local Environment:
 3. To get the Expo App, download from your respective Stores
 
 
+Alternatively
+
+You can scan the Expo QR Code on the link below with your Android Device:
+
+`https://expo.io/@oduorfelix/cashletApp`
+
+
 
 An APK has been generated and in the parent directory!
 
