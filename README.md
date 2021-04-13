@@ -1,4 +1,4 @@
-# Cashlet_App_Demo
+# Cashlet App Demo
 Cashlet Demo App
 
 To Run the Application on Local Environment:
