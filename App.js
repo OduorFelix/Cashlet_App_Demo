@@ -20,17 +20,11 @@ export default function App() {
 				<Snackbar
 					visible={visible}
 					onDismiss={onDismissSnackBar}
-					action={{
-						label: 'OK',
-						onPress: () => {
-							// Do something
-						},
-					}}
 					duration={2000}
 					wrapperStyle={{
 						width: snack_width,
-					}}
-					style={{ backgroundColor: '#e62180' }}
+          } }
+          style={{backgroundColor: '#01e576'}}
 					bottom={height_snack}
 				>
 					This is an in-app notification snackbar to show to the user when they perform an action. Clicking it
@@ -66,7 +60,7 @@ export default function App() {
 					<TouchableOpacity style={styles.signIn} onPress={onToggleSnackBar}>
 						<LinearGradient colors={['#01e576', '#01e576']} style={styles.signIn}>
 							<Text style={[styles.textSign, { color: '#ffffff' }]}>
-								{visible ? 'Show Snackbar' : 'Show Snackbar'}
+								{visible ? 'Close Snackbar' : 'Show Snackbar'}
 							</Text>
 						</LinearGradient>
 					</TouchableOpacity>
